@@ -1,0 +1,8 @@
+sample:
+  name: AWTK sample application
+  description: awtk
+tests:
+  sample.display.adafruit_2_8_tft_touch_v2:
+    platform_whitelist: nrf52840dk_nrf52840
+    extra_args: SHIELD=adafruit_2_8_tft_touch_v2
+    tags: shield

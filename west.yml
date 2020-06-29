@@ -29,6 +29,8 @@ manifest:
       url-base: https://github.com/ThrowTheSwitch
     - name: armmbed
       url-base: https://github.com/ARMmbed
+    - name: playground
+      url-base: https://github.com/NordicPlayground
 
   # If not otherwise specified, the projects below should be obtained
   # from the ncs remote.
@@ -112,6 +114,10 @@ manifest:
       repo-path: mbedtls
       revision: mbedtls-2.16.6
       remote: armmbed
+    - name: awtk
+      path: modules/lib/gui/awtk
+      remote: playground
+      revision: 155f095df2c7fb7ef390942ec11a6ead3e04d7c8
 
   # West-related configuration for the nrf repository.
   self:
